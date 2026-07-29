@@ -15,5 +15,5 @@ body {
     color: #ddd;
     text-align: center;
     margin-top: 20px;
-    webkit-text-stroke: 1px #000;
+    -webkit-text-stroke: 3px #000;
 }
