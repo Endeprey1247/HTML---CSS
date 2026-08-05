@@ -26,8 +26,41 @@ body::before {
     z-index: -1;
 }
 
+a {
+    color: rgb(29, 146, 255);
+    text-decoration: none;
+    transition: color 0.25s ease;
+}
+
+a:hover {
+    color: rgb(25, 117, 203);
+    text-decoration: underline;
+    transition: color 0.25s ease;
+}
+
+a:active {
+    color: rgb(20, 92, 160);
+    text-decoration: underline;
+    transition: color 0.25s ease;
+}
+
+a:visited {
+    color: #808;
+    text-decoration: none;
+}
+
+a:hover:visited {
+    color: #909;
+    text-decoration: underline;
+}
+
+a:active:visited {
+    color: #707;
+    text-decoration: underline;
+}
+
 p {
-    font-size: 1em;
+    font-size: 1.2em;
     line-height: 1.5;
     margin-bottom: 20px;
 }
@@ -53,5 +86,5 @@ p {
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 25%;
 }
