@@ -60,20 +60,26 @@ a:active:visited {
 }
 
 p {
+    font-size: 1.5em;
+    line-height: 1.5;
+    margin-bottom: auto;
+}
+
+li {
     font-size: 1.2em;
     line-height: 1.5;
     margin-bottom: auto;
 }
 
 #main-title {
-    font-size: 2em;
+    font-size: 2.5em;
     color: #ddd;
     text-align: center;
     margin-top: 20px;
 }
 
 #sub-title {
-    font-size: 1.5em;
+    font-size: 2em;
     color: #ddd;
     text-align: center;
     margin-top: 20px;
