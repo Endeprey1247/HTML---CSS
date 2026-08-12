@@ -106,3 +106,7 @@ th, td {
     padding: 5px;
     text-align: center;
 }
+
+th {
+    background-color: #255827;
+}
