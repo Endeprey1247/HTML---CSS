@@ -3,22 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Thieves_Den.ico" type="image/x-icon">
+    <link rel="stylesheet" href="stylesheet.css">
     <title>Document</title>
 </head>
 <body>
     <form action="process.php" method="post">
         <label for="name">Name:</label>
-        <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+        <input type="text" id="name" name="name" placeholder="name" required><br><br>
 
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+        <input type="email" id="email" name="email" placeholder="email" required><br><br>
 
         <label for="ps">Password:</label>
-        <input type="password" id="ps" name="ps" placeholder="Enter your password" minlength="6" required><br><br>
+        <input type="password" id="ps" name="ps" placeholder="password" minlength="6" required><br><br>
+
+        <label for="number">Age:</label>
+        <input type="number" id="number" name="number" placeholder="age" min="15" max="20" required><br><br>
 
         <label for="gender">Gender:</label>
-        <input type="radio" id="male" name="gender" value="male" required><label for="male">Male</label>
-        <input type="radio" id="female" name="gender" value="female" required><label for="female">Female</label><br><br>
+        <input type="radio" id="male" name="gender" value="male" required>L
+        <input type="radio" id="female" name="gender" value="female" required>F<br><br>
+
+        <label for="hobby">Hobby:</label>
+        <input type="checkbox" id="writing" name="hobby" value="writing">Writing
+        <input type="checkbox" id="drawing" name="hobby" value="drawing">Drawing
+        <input type="checkbox" id="gaming" name="hobby" value="gaming">Gaming
+        <input type="checkbox" id="reading" name="hobby" value="reading">Reading
+        <input type="checkbox" id="other" name="hobby" value="coding">Coding<br><br>
+
+        <label for="class">Class:</label>
+        <select id="class" name="class" required>
+            <option value="">Select your class</option>
+            <option value="XI RPL 1">XI RPL 1</option>
+            <option value="XI RPL 2">XI RPL 2</option>
+            <option value="XI TKJ 1">XI TKJ 1</option>
+            <option value="XI TKJ 2">XI TKJ 2</option>
+        </select><br><br>
+
+        <textarea id="message" name="message" rows="4" cols="50" placeholder="Your message here..."></textarea><br><br>
         
     </form>
 </body>
