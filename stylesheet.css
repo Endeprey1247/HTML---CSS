@@ -1,6 +1,11 @@
+:root {
+    --primary-font-fam: "Gotham", Verdana, Arial, sans-serif;
+    --prim-bg-color: #312745;
+}
+
 body {
-    font-family: "Gotham", Verdana, Arial, sans-serif;
-    background-color: #312745;
+    font-family: var(--primary-font-fam);
+    background-color: var(--prim-bg-color);
     background-image: url("background.png");
     background-position: center;
     background-repeat: repeat;
@@ -109,4 +114,8 @@ th, td {
 
 th {
     background-color: #255827;
+}
+
+form {
+    
 }
