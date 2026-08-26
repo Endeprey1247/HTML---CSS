@@ -10,7 +10,6 @@ body {
     background-image: var(--prim-bg-img);
     background-position: center;
     background-repeat: repeat;
-    background-size: cover;
     color: #fff;
 
     margin-left: 50px;
@@ -96,10 +95,7 @@ li {
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
-    width: 25%;
+    margin: auto;
     outline: 5px solid #909;
 }
 
