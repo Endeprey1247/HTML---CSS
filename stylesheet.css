@@ -118,7 +118,6 @@ form {
     flex-direction: column;
     align-content: center;
     align-items: normal;
-    font-family: var(--primary-font-fam);
 }
 
 input {
@@ -127,4 +126,6 @@ input {
     border-width: 3px;
     border-color: rgb(70, 37, 70);
     border-radius: 7px;
+    font-family: var(--primary-font-fam);
 }
+
