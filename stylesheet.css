@@ -2,6 +2,8 @@
     --primary-font-fam: "Gotham", Verdana, Arial, sans-serif;
     --prim-bg-color: #312745;
     --prim-bg-img: url(img/background.png);
+    --text-size-paragraph: 1.5em;
+    --line-height: 1.5;
 }
 
 body {
@@ -64,9 +66,24 @@ a:active:visited {
 }
 
 p {
-    font-size: 1.5em;
-    line-height: 1.5;
+    font-size: var(--text-size-paragraph);
+    line-height: var(--line-height);
     margin-bottom: auto;
+}
+
+span {
+    font-size: var(--text-size-paragraph);
+    line-height: var(--line-height);
+    margin-bottom: auto;
+}
+
+em {
+    font-family: var(--primary-font-fam);
+    font-weight: bold;
+}
+
+strong {
+    font-family: var(--primary-font-fam);
 }
 
 li {

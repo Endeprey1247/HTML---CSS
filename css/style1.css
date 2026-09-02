@@ -1,6 +1,19 @@
 #gaykit {
     display: block;
-    margin: 0 auto;
-    width: 100px;
+    margin: auto;
+    width: 25%;
     height: auto;
+}
+
+.green_text {
+    color: #0f0;
+}
+
+.hashtag {
+    color: #0bf;
+}
+
+.red_span {
+    background-color: #f00;
+    color: #fff;
 }
