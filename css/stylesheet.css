@@ -2,7 +2,7 @@
     --primary-font-fam: "Gotham", Verdana, Arial, sans-serif;
     --primary-font-weight: bold;
     --prim-bg-color: #312745;
-    --prim-bg-img: url(img/background.png);
+    --prim-bg-img: url(../img/background.png);
     --text-size-paragraph: 1.5em;
     --line-height: 1.5;
 }
