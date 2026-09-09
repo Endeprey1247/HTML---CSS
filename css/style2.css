@@ -29,9 +29,14 @@ button {
     background-color: rgb(31, 78, 121);
     color: white;
     padding: 8px 16px;
+    border: none;
 }
 
 button:hover {
     background-color: rgba(31, 78, 121, .7);
+}
+
+button:active {
+    background-color: rgba(22, 53, 83, 0.7);
 }
 
