@@ -1,0 +1,23 @@
+@import url(stylesheet.css);
+
+#container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.block-card {
+    font-size: 1rem;
+    box-sizing: border-box;
+    width: 500px;
+    padding: 16px;
+    border-radius: 25px;
+    border: 5px solid #5d1076;
+    margin: 20px;
+}
+
+#Chudhammer {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: auto;
+}
