@@ -8,16 +8,18 @@
 .block-card {
     font-size: 1rem;
     box-sizing: border-box;
-    width: 500px;
+    width: 300px;
+    height: auto;
     padding: 16px;
     border-radius: 25px;
     border: 5px solid #5d1076;
-    margin: 20px;
+    margin-left: 5px;
+    margin-bottom: 20px;
 }
 
 #Chudhammer {
     display: block;
     margin: 0 auto;
-    width: 200px;
+    width: 150px;
     height: auto;
 }
