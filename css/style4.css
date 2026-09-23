@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #3b2b5b;
+    padding: 16px 24px;
+}
+
+header nav li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.hero {
+    background-color: #554577;
+    background-size: cover;
+    background-position: center;
+    padding: 20px 12px;
+    text-align: center;
+}
+
+.feature {
+    padding: 12px;
+    text-align: center;
+}
+
+.feature .block-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    padding: 15px;
+    margin: 10px;
+    border: 1.5px dashed #66538f;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .15);
+}
+
+footer {
+    background-color: #3b2b5b;
+    text-align: center;
+    padding: 16px;
+}
