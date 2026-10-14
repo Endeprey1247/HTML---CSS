@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 header {
     background-color: #3b2b5b;
     padding: 16px 24px;
@@ -30,12 +35,12 @@ header nav li {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: auto;
+    width: 50%;
     padding: 15px;
     margin: 10px;
     border: 1.5px dashed #66538f;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, .15);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 20%);
 }
 
 footer {
