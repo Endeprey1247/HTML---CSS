@@ -22,6 +22,27 @@ header nav li {
     margin-right: 5px;
 }
 
+#top-bar {
+    position: absolute;
+	top: 140px;
+	height: 21px;
+	width: 100%;
+	line-height: 18px;
+	padding: 0;
+	margin: 0 auto;
+	z-index: 20;
+	font-size: 0.9em;
+}
+
+#top-bar ul li a {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    line-height: 18px;
+    position: absolute;
+    top: 140px;
+}
+
 .hero {
     background-image: linear-gradient(to top, rgba(85, 69, 119, 0), rgba(85, 69, 119, 1));
     background-size: cover;
